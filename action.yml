@@ -18,6 +18,15 @@ inputs:
     description: 'Branch which will be deployed'
     required: false
     default: 'master'
+  deploy_token:
+    description: 'Token for private repository'
+    required: false
+  user:
+    description: 'User git'
+    required: false
+  repository:
+    description: 'Repository to pull'
+    required: false
 runs:
   using: 'docker'
   image: 'Dockerfile'
