@@ -21,6 +21,9 @@ inputs:
   deploy_token:
     description: 'Token for private repository'
     required: false
+  username:
+    description: 'Git owner'
+    required: false
   user:
     description: 'User git'
     required: false
